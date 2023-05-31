@@ -1,0 +1,33 @@
+body{
+background-color: rgb(153, 50, 204);
+color:white;
+}
+.fam{
+background-color: blueviolet;
+width:25%;
+border-radius:8px;
+border:white 3px solid;
+}
+#webcam{
+border-radius:8px;
+border:rgb(106, 35, 141) 5px solid;
+width:300px;
+height:300px;
+animation-name:animation;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+}
+#image{
+    border-radius:8px;
+    border:rgb(106, 35, 141) 5px solid;
+    width:300px;
+    height:300px;
+}
+@keyframes animation{
+from{
+box-shadow:1px 1px 200px rgb(93, 149, 223);
+}
+to{
+box-shadow: 1px 1px 200px rgb(219, 16, 168);
+}
+}
